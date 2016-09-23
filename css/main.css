@@ -17,3 +17,22 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+div p {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  max-width: 25em;
+  margin: 0 0 2em 0;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 2em 0 0 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+}
