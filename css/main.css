@@ -71,3 +71,28 @@ a:hover {
     margin: 0;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+
+  section {
+    display: inline-block;
+    width: 49%;
+    margin-top: 1em;
+  }
+
+  body {
+    margin-top: 1em;
+  }
+
+}
